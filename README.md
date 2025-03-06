@@ -7,16 +7,16 @@ Files:
 - filtering_data.py: filters data articles for relevancy.
 - article_Data.json and article_links.json: recovered data files storage.
 <br>
-### Scope
+## Scope
 Webscraper built to extract and filter bbc news article headlines and links for further project.
 <br>
-### Language
+## Language 
 Python
 <br>
-### Modules
+## Modules
 requests_html, time, parser, datetime, json, os
 <br>
-### Use
+## Use
 To use - run webscraper.py file, if correctly run, it will create a json file then run the filtering_data.py and it will produce current list of results.
 
 #
