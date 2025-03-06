@@ -1,23 +1,22 @@
 # Data Analysis & Data Mining 
 
-# Web scraper (Newsdata BBC)
-
-## Location Webscraper_newsdata folder
+## Web scraper (Newsdata BBC)
+Location Webscraper_newsdata folder
 Files: 
 - Webscraper.py: contains code to extract data from bbc news site, customised for this purpose only.
 - filtering_data.py: filters data articles for relevancy.
 - article_Data.json and article_links.json: recovered data files storage.
 <br>
-## Scope
+### Scope
 Webscraper built to extract and filter bbc news article headlines and links for further project.
 <br>
-## Language
+### Language
 Python
 <br>
-## Modules
+### Modules
 requests_html, time, parser, datetime, json, os
 <br>
-## Use
+### Use
 To use - run webscraper.py file, if correctly run, it will create a json file then run the filtering_data.py and it will produce current list of results.
 
 #
