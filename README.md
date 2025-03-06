@@ -1,37 +1,42 @@
-# Data Analysis & Data Mining 
+# Data Analysis & Data Mining
 
-## Web scraper (Newsdata BBC)
-Location Webscraper_newsdata folder
-Files: 
-- Webscraper.py: contains code to extract data from bbc news site, customised for this purpose only.
-- filtering_data.py: filters data articles for relevancy.
-- article_Data.json and article_links.json: recovered data files storage.
-<br>
-## Scope
-Webscraper built to extract and filter bbc news article headlines and links for further project.
-<br>
-## Language 
+This repository contains various data analysis and data mining projects, each explained in its respective section.
+
+## Web Scraper (Newsdata BBC)
+**Location:** `Webscraper_newsdata` folder
+
+### Files:
+- **Webscraper.py:** Contains code to extract data from the BBC news site, customized for this purpose only.
+- **filtering_data.py:** Filters data articles for relevancy.
+- **article_Data.json** and **article_links.json:** Recovered data files storage.
+
+### Scope
+The web scraper is built to extract and filter BBC news article headlines and links for further projects.
+
+### Language 
 Python
-<br>
-## Modules
-requests_html, time, parser, datetime, json, os
-<br>
-## Use
-To use - run webscraper.py file, if correctly run, it will create a json file then run the filtering_data.py and it will produce current list of results.
 
-#
-# Stock data manipulation
+### Modules
+`requests_html`, `time`, `parser`, `datetime`, `json`, `os`
 
-## Scope
-To investigate exisisting data and create machine learning models as part of a larger project.
-<br>
-## Language 
+### Usage
+To use:
+1. Run the `webscraper.py` file. If it runs correctly, it will create a JSON file.
+2. Run the `filtering_data.py` file to produce the current list of results.
+
+## Stock Data Manipulation
+**Location:** `stock_data` folder
+
+### Scope
+To investigate existing data and create machine learning models as part of a larger project.
+
+### Language 
 Python
-<br>
-## Modules
-seaborn, matplotlib, pandas, os, skikit-learn
-<br>
-## Use
-To use - upload datasets on Google Drive and run files in google colab by running each line to see same results.
 
+### Modules
+`seaborn`, `matplotlib`, `pandas`, `os`, `scikit-learn`
 
+### Usage
+To use:
+1. Upload datasets to Google Drive.
+2. Run the files in Google Colab by executing each line to see the results.
