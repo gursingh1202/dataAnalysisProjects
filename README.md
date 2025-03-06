@@ -1,7 +1,8 @@
 # Data Analysis & Data Mining 
 
 # Web scraper (Newsdata BBC)
-Location Webscraper_newsdata folder
+
+## Location Webscraper_newsdata folder
 Files: 
 - Webscraper.py: contains code to extract data from bbc news site, customised for this purpose only.
 - filtering_data.py: filters data articles for relevancy.
