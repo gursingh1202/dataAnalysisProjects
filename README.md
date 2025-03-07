@@ -42,7 +42,7 @@ To use:
 2. Run the files in Google Colab by executing each line to see the results.
 
 
-## Web Scraper (Robot.txt cheker)
+## Web Scraper (Robot.txt checker)
 **Location:** `robot_checker` folder
 
 ### Files:
