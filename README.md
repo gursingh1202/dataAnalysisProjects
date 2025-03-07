@@ -40,3 +40,28 @@ Python
 To use:
 1. Upload datasets to Google Drive.
 2. Run the files in Google Colab by executing each line to see the results.
+
+
+## Web Scraper (Robot.txt cheker)
+**Location:** `robot_checker` folder
+
+### Files:
+- **robot_checker.py:** Contains code to extract robot.txt text from the url site indicated.
+- **links.csv:** URL links sto be extracted.
+- **results.json** and **article_links.json:** Recovered data files storage.
+
+### Scope
+The web scraper is to extract robot.txt file if one is present and store in json file for later use.
+
+### Language 
+`Python`
+
+### Modules
+`requests_html`, `time`, `parser`, `datetime`, `json`, `os`
+
+### Usage
+To use:
+
+1. Change the `links.csv` file to wanted site URLs.
+2. Run the `robot_checker.py` file. If it runs correctly, it will append a JSON file.
+
